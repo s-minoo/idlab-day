@@ -1,35 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <title>Shower Presentation Engine</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="node_modules/@shower/material/styles/styles.css">
-    <style>
-        .shower {
-            --slide-ratio: calc(16 / 9);
-        }
-    </style>
-</head>
-<body class="shower list">
+    <head>
+        <title>IDLab Day Presentation</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="node_modules/@shower/material/styles/styles.css"
+        />
+        <link rel="stylesheet" href="styles/custom.css" />
+        <style>
+            .shower {
+                --slide: calc(16 / 9);
+            }
+        </style>
+    </head>
+    <body class="shower list">
+        <header class="caption">
+            <h1>
+                Any2Any Mappings: a heterogeneous to heterogeneous data
+                integration
+            </h1>
+            <p>Sitt Min Oo</p>
+        </header>
 
-    <header class="caption">
-        <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
-    </header>
+        <section class="slide clear">
+            <h1 class="title" style="text-align: center; font-size: 1.8em">
+                Any2Any Mappings: a heterogeneous to heterogeneous data
+                integration
+            </h1>
+            <p
+                style="
+                    font-size: 1.3em;
+                    text-align: center;
+                    color: gray;
+                    font-weight: bold;
+                "
+            >
+                Sitt Min Oo
+            </p>
+        </section>
 
-    <section class="slide">
-        <!-- Create your first slide -->
-    </section>
+        <section class="slide clear">
+            <figure>
+                <img
+                    class="cover"
+                    src="figures/library.jpeg"
+                    style="width: 100%"
+                    alt="A view from the entrance to the inside of a library"
+                />
+                <figcaption class="copyright right white"></figcaption>
+            </figure>
+        </section>
 
-    <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer>
+        <section class="slide clear">
+            <h1 class="title"></h1>
+        </section>
 
-    <div class="progress"></div>
+        <footer >
+            <p class="license">
+                &#169; <span property="schema:copyrightYear">2024</span>
+                <a href="https://sminoo.be" rel="schema:copyrightHolder"
+                    ><span>Sitt Min Oo</span></a
+                >
+                —
+                <a href="https://creativecommons.org/licenses/by/4.0/"
+                    >Creative Commons Attribution 4.0</a
+                >, unless otherwise indicated.
+            </p>
+            <a href="https://github.com/s-minoo/eswc2024-rmlweaver-slide"
+                >Source</a
+            >
+        </footer>
 
-    <script src="node_modules/@shower/core/dist/shower.js"></script>
-    <!-- Copyright © 2024 Yours Truly, Famous Inc. -->
-
-</body>
+        <script src="node_modules/@shower/core/dist/shower.js"></script>
+        <!-- Copyright © 2024 Yours Truly, Famous Inc. -->
+    </body>
 </html>

@@ -14,9 +14,8 @@ img {
     min-width: 0;
 }
 
-tr:nth-child(even){
-    background-color: var(--color-light)
-
+tr:nth-child(even) {
+    background-color: var(--color-light);
 }
 
 .container {
@@ -31,6 +30,7 @@ tr:nth-child(even){
     height: 100%;
     width: 30px;
 }
+
 
 .slide {
     padding-top: 60px;
@@ -81,7 +81,12 @@ tr:nth-child(even){
     margin-bottom: 0px;
 }
 
-footer {
+.shower.full footer{
+    display: none; 
+
+}
+
+.shower.list footer {
     border-top: 2px solid #3e8ed0;
     padding: 30px 0 30px 30px;
     background-color: #424242;
